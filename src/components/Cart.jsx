@@ -49,7 +49,7 @@ const Cart = (props) => {
         <span className="productTotalPrice">${product.qty * product.price}.00</span>
         <button onClick={() => dispatch({type: 'DELETE_PRODUCT', id: product.id})} className="deleteCartPro"><i className="fas fa-trash-alt"></i></button>
            </div>  
-        )) : 'Yourr Cart is currently empty!'}
+        )) : 'Your Cart is currently empty!'}
         
         </div>
         {shoppingCart.length ? <div className="cartSummary">

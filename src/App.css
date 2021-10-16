@@ -191,6 +191,8 @@ nav ul li .shoppingCartTotal {
   width: 75%;
   border: 1px solid #fafafa;
   border-radius: 5px;
+  color: white;
+  padding: 10px;
 }
 
 .cart {
